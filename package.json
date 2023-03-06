@@ -5,7 +5,8 @@
   "repository": "git@github.com:invakid404/renovate-local-dep-repro.git",
   "author": "invakid404 <invakid404@riseup.net>",
   "license": "MIT",
-  "dependencies": {
-    "child-package": "file:child-package"
+  "workspaces": ["child-package"],
+  "scripts": {
+    "prepare": "npx tsc"
   }
 }
