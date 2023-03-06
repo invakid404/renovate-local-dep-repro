@@ -1,0 +1,11 @@
+{
+  "name": "renovate-local-dep-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:invakid404/renovate-local-dep-repro.git",
+  "author": "invakid404 <invakid404@riseup.net>",
+  "license": "MIT",
+  "dependencies": {
+    "child-package": "file:child-package"
+  }
+}
