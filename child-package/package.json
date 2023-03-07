@@ -7,6 +7,6 @@
     "prepare": "npx tsc"
   },
   "devDependencies": {
-    "typescript": "4.8"
+    "typescript": "4.9"
   }
 }
